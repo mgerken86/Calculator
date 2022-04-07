@@ -39,14 +39,20 @@ button:hover {
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 #input {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, .7);
+
 }
 
 #output {
     font-size: 4rem;
+    color: rgba(255, 255, 255, 1);
 }
 #zero {
     grid-column: span 2;
